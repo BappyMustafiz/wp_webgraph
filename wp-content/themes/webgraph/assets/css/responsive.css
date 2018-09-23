@@ -1,0 +1,825 @@
+/*CSS appears when device max width 349px */
+ @media only screen and (max-width: 349px){
+     .tab-wrapper .tabs{
+         display: none;
+    }
+     #how-we-work {
+         padding: 60px 0 60px 0;
+    }
+     .how-we-work-section-desc {
+         text-align: center;
+         font-size: 16px;
+         font-weight: 400;
+         color: #6d6d6d;
+         padding-right: 0;
+    }
+     .how-we-work-section-title {
+         text-align: center;
+    }
+     .how-we-work-section-image{
+         text-align: center;
+    }
+     .owner-title{
+         margin: 0 auto;
+    }
+     .owner-designation{
+         margin: 0 auto;
+    }
+     .owner-comment p {
+         text-align: center;
+         font-size: 20px;
+    }
+     .owner-comment-short-desc p {
+         text-align: center;
+         padding: 15px;
+    }
+     .owner-comment-long-desc p {
+         text-align: center;
+         padding: 15px;
+    }
+     .owner-profile-button {
+         margin: 0 auto;
+    }
+     .upcoming-courses-title {
+         text-align: center;
+         font-size: 33px;
+         padding: 60px 0 60px 0;
+    }
+     .our-trainer-title {
+         padding: 60px 0 60px 0;
+    }
+     .student-opinion-title p {
+         text-align: center;
+    }
+     .contact-us {
+         padding-top: 60px;
+    }
+     .contact-button {
+         padding-left: 15px;
+    }
+     .subscribe-title {
+         font-size: 35px;
+         padding: 60px 0 20px 0;
+    }
+     .subscribe-desc p {
+         text-align: center;
+         margin-bottom: 0;
+    }
+     .our-details {
+         padding-top: 60px;
+         padding-bottom: 60px;
+    }
+     .our-details-package-image {
+         text-align: center;
+    }
+     .our-details-count {
+         text-align: center;
+    }
+     .our-details-title p {
+         text-align: center;
+    }
+     .our-details-count-hr {
+         display: none;
+    }
+     .footer-hr {
+         width: 100%;
+    }
+     .top-social-circle{
+         display: none;
+    }
+     .container-fluid {
+         padding: 6px 50px;
+    }
+     .main_nav .container-fluid {
+         padding: 0 0 0 15px;
+    }
+     .banner-main-title {
+         padding-top: 60px;
+         font-size: 20px;
+    }
+     .banner-button {
+         padding: 34px 0 80px 0;
+    }
+     .banner-description {
+         font-size: 9px;
+         font-weight: 400;
+    }
+     .main_nav, .main_nav .black{
+         background: #5b9cdf;
+         padding: 0;
+    }
+     .main_nav ul{
+         position: absolute;
+         width: 100%;
+         left: 0;
+         background: #729bc5;
+         float: none;
+         display: none;
+    }
+     .main_nav ul.active{
+         display: block;
+    }
+     .main_nav ul li{
+         width: 100%;
+    }
+     .main_nav ul li a{
+         display: block;
+         padding: 0;
+         width: 100%;
+         text-align: center;
+         line-height: 30px !important;
+         color:#252930;
+    }
+     .main_nav .mobile-navbar{
+         display: block;
+    }
+     .main_nav .topbar-contact-details{
+         display: block;
+    }
+     .main_nav .topbar-logo{
+         display: none;
+    }
+     .main_nav .navbar-button{
+         display: none;
+    }
+     .topbar-contact{
+         display: none;
+    }
+     .topbar-logo{
+         text-align: center;
+    }
+     .main_nav ul{
+         display: none;
+    }
+     .main_nav{
+         padding-left: 0;
+         background: #5b9cdf;
+         padding-top: 0;
+         padding-bottom: 0;
+    }
+     .navbar-logo{
+         padding-left: 5px;
+    }
+     .mobile-navbar i{
+         color: #252930;
+    }
+     .topbar-contact-details{
+         padding-top: 34px;
+    }
+     .contact-us-title{
+         padding: 60px 0 30px 0;
+    }
+     .our-details-description {
+         padding-top: 60px;
+         padding-bottom: 0;
+    }
+     .footer-contact-title{
+         padding-top:60px;
+         text-align: center;
+    }
+     .footer p{
+         text-align: center;
+    }
+     .footer-contact-social{
+         padding-top:0;
+    }
+     .footer-contact-social ul {
+         padding-left: 0px;
+         display: flex;
+         position: relative;
+         left: 40%;
+         transform: translate(-23%, -56%);
+    }
+     .footer-quick-touch-title{
+         padding-top: 60px;
+    }
+     .footer-links-title{
+         padding-top: 60px;
+    }
+     .footer-google-maps-title {
+         padding-top: 60px;
+    }
+     .footer-google-maps{
+         text-align: center;
+    }
+     .footer-logo{
+         text-align: center;
+    }
+     .footer-copyright{
+         text-align: center;
+    }
+     .footer-credit {
+         text-align: center;
+    }
+}
+/*CSS appears when device min-width 350px and max width 375px */
+ @media only screen and (min-device-width : 350px) and (max-device-width : 375px) {
+     .tab-wrapper .tabs{
+         display: none;
+    }
+     .top-phone {
+         padding-left: 0;
+         padding-bottom: 10px;
+    }
+     .mobile-navbar {
+         padding: 19px 22px 15px 155px;
+         font-size: 40px;
+    }
+     #how-we-work {
+         padding: 60px 0 60px 0;
+    }
+     .how-we-work-section-desc {
+         text-align: center;
+         font-size: 16px;
+         font-weight: 400;
+         color: #6d6d6d;
+         padding-right: 0;
+    }
+     .how-we-work-section-title {
+         text-align: center;
+    }
+     .how-we-work-section-image{
+         text-align: center;
+    }
+     .owner-title{
+         margin: 0 auto;
+    }
+     .owner-designation{
+         margin: 0 auto;
+    }
+     .owner-comment p {
+         text-align: center;
+         font-size: 20px;
+    }
+     .owner-comment-short-desc p {
+         text-align: center;
+         padding: 15px;
+    }
+     .owner-comment-long-desc p {
+         text-align: center;
+         padding: 15px;
+    }
+     .owner-profile-button {
+         margin: 0 auto;
+    }
+     .upcoming-courses-title {
+         text-align: center;
+         font-size: 33px;
+         padding: 60px 0 60px 0;
+    }
+     .our-trainer-title {
+         padding: 60px 0 60px 0;
+    }
+     .student-opinion-title p {
+         text-align: center;
+    }
+     .contact-us {
+         padding-top: 60px;
+    }
+     .contact-button {
+         padding-left: 15px;
+    }
+     .subscribe-title {
+         font-size: 35px;
+         padding: 60px 0 20px 0;
+    }
+     .subscribe-desc p {
+         text-align: center;
+         margin-bottom: 0;
+    }
+     .our-details {
+         padding-top: 60px;
+         padding-bottom: 60px;
+    }
+     .our-details-package-image {
+         text-align: center;
+    }
+     .our-details-count {
+         text-align: center;
+    }
+     .our-details-title p {
+         text-align: center;
+    }
+     .our-details-count-hr {
+         display: none;
+    }
+     .footer-hr {
+         width: 100%;
+    }
+     .top-social-circle{
+         display: none;
+    }
+     .container-fluid {
+         padding: 6px 50px;
+    }
+     .main_nav .container-fluid {
+         padding: 0 0 0 15px;
+    }
+     .banner-main-title {
+         padding-top: 60px;
+         font-size: 22px;
+    }
+     .banner-button {
+         padding: 34px 0 80px 0;
+    }
+     .banner-description {
+         font-size: 9px;
+         font-weight: 400;
+    }
+     .main_nav, .main_nav .black{
+         background: #5b9cdf;
+         padding: 0;
+    }
+     .main_nav ul{
+         position: absolute;
+         width: 100%;
+         left: 0;
+         background: #729bc5;
+         float: none;
+         display: none;
+    }
+     .main_nav ul.active{
+         display: block;
+    }
+     .main_nav ul li{
+         width: 100%;
+    }
+     .main_nav ul li a{
+         display: block;
+         padding: 0;
+         width: 100%;
+         text-align: center;
+         line-height: 30px !important;
+         color:#252930;
+    }
+     .main_nav .mobile-navbar{
+         display: block;
+    }
+     .main_nav .topbar-contact-details{
+         display: block;
+    }
+     .main_nav .topbar-logo{
+         display: none;
+    }
+     .main_nav .navbar-button{
+         display: none;
+    }
+     .topbar-contact{
+         display: none;
+    }
+     .topbar-logo{
+         text-align: center;
+    }
+     .main_nav ul{
+         display: none;
+    }
+     .main_nav{
+         padding-left: 0;
+         background: #5b9cdf;
+         padding-top: 0;
+         padding-bottom: 0;
+    }
+     .navbar-logo{
+         padding-left: 5px;
+    }
+     .mobile-navbar i{
+         color: #252930;
+    }
+     .topbar-contact-details{
+         padding-top: 34px;
+    }
+     .contact-us-title{
+         padding: 60px 0 30px 0;
+    }
+     .our-details-description {
+         padding-top: 60px;
+         padding-bottom: 0;
+    }
+     .footer-contact-title{
+         padding-top:60px;
+         text-align: center;
+    }
+     .footer p{
+         text-align: center;
+    }
+     .footer-contact-social{
+         padding-top:0;
+    }
+     .footer-contact-social ul {
+         padding-left: 0px;
+         display: flex;
+         position: relative;
+         left: 52%;
+         transform: translate(-23%, -56%);
+    }
+     .footer-quick-touch-title{
+         padding-top: 60px;
+    }
+     .footer-links-title{
+         padding-top: 60px;
+    }
+     .footer-google-maps-title {
+         padding-top: 60px;
+    }
+     .footer-google-maps{
+         text-align: center;
+    }
+     .footer-logo{
+         text-align: center;
+    }
+     .footer-copyright{
+         text-align: center;
+    }
+}
+/*CSS appears when device min-width 376px and max width 600px */
+ @media only screen and (min-device-width : 376px) and (max-device-width : 600px) {
+     .tab-wrapper .tabs{
+         display: none;
+    }
+     .top-phone {
+         padding-left: 0;
+         padding-bottom: 10px;
+    }
+     .mobile-navbar {
+         padding: 19px 22px 15px 225px;
+         font-size: 40px;
+    }
+     #how-we-work {
+         padding: 60px 0 60px 0;
+    }
+     .how-we-work-section-desc {
+         text-align: center;
+         font-size: 16px;
+         font-weight: 400;
+         color: #6d6d6d;
+         padding-right: 0;
+    }
+     .how-we-work-section-title {
+         text-align: center;
+    }
+     .how-we-work-section-image{
+         text-align: center;
+    }
+     .owner-title{
+         margin: 0 auto;
+    }
+     .owner-designation{
+         margin: 0 auto;
+    }
+     .owner-comment p {
+         text-align: center;
+         font-size: 20px;
+    }
+     .owner-comment-short-desc p {
+         text-align: center;
+         padding: 15px;
+    }
+     .owner-comment-long-desc p {
+         text-align: center;
+         padding: 15px;
+    }
+     .owner-profile-button {
+         margin: 0 auto;
+    }
+     .upcoming-courses-title {
+         text-align: center;
+         font-size: 33px;
+         padding: 60px 0 60px 0;
+    }
+     .our-trainer-title {
+         padding: 60px 0 60px 0;
+    }
+     .student-opinion-title p {
+         text-align: center;
+    }
+     .contact-us {
+         padding-top: 60px;
+    }
+     .contact-button {
+         padding-left: 15px;
+    }
+     .subscribe-title {
+         font-size: 35px;
+         padding: 60px 0 20px 0;
+    }
+     .subscribe-desc p {
+         text-align: center;
+         margin-bottom: 0;
+    }
+     .our-details {
+         padding-top: 60px;
+         padding-bottom: 60px;
+    }
+     .our-details-package-image {
+         text-align: center;
+    }
+     .our-details-count {
+         text-align: center;
+    }
+     .our-details-title p {
+         text-align: center;
+    }
+     .our-details-count-hr {
+         display: none;
+    }
+     .footer-hr {
+         width: 100%;
+    }
+     .top-social-circle{
+         display: none;
+    }
+     .container-fluid {
+         padding: 6px 50px;
+    }
+     .main_nav .container-fluid {
+         padding: 0 0 0 15px;
+    }
+     .banner-main-title {
+         padding-top: 60px;
+         font-size: 22px;
+    }
+     .banner-button {
+         padding: 34px 0 80px 0;
+    }
+     .banner-description {
+         font-size: 9px;
+         font-weight: 400;
+    }
+     .main_nav, .main_nav .black{
+         background: #5b9cdf;
+         padding: 0;
+    }
+     .main_nav ul{
+         position: absolute;
+         width: 100%;
+         left: 0;
+         background: #729bc5;
+         float: none;
+         display: none;
+    }
+     .main_nav ul.active{
+         display: block;
+    }
+     .main_nav ul li{
+         width: 100%;
+    }
+     .main_nav ul li a{
+         display: block;
+         padding: 0;
+         width: 100%;
+         text-align: center;
+         line-height: 30px !important;
+         color:#252930;
+    }
+     .main_nav .mobile-navbar{
+         display: block;
+    }
+     .main_nav .topbar-contact-details{
+         display: block;
+    }
+     .main_nav .topbar-logo{
+         display: none;
+    }
+     .main_nav .navbar-button{
+         display: none;
+    }
+     .topbar-contact{
+         display: none;
+    }
+     .topbar-logo{
+         text-align: center;
+    }
+     .main_nav ul{
+         display: none;
+    }
+     .main_nav{
+         padding-left: 0;
+         background: #5b9cdf;
+         padding-top: 0;
+         padding-bottom: 0;
+    }
+     .navbar-logo{
+         padding-left: 5px;
+    }
+     .mobile-navbar i{
+         color: #252930;
+    }
+     .topbar-contact-details{
+         padding-top: 34px;
+    }
+     .contact-us-title{
+         padding: 60px 0 30px 0;
+    }
+     .our-details-description {
+         padding-top: 60px;
+         padding-bottom: 0;
+    }
+     .footer-contact-title{
+         padding-top:60px;
+         text-align: center;
+    }
+     .footer p{
+         text-align: center;
+    }
+     .footer-contact-social{
+         padding-top:0;
+    }
+     .footer-contact-social ul {
+         padding-left: 0px;
+         display: flex;
+         position: relative;
+         left: 52%;
+         transform: translate(-23%, -56%);
+    }
+     .footer-quick-touch-title{
+         padding-top: 60px;
+    }
+     .footer-links-title{
+         padding-top: 60px;
+    }
+     .footer-google-maps-title {
+         padding-top: 60px;
+    }
+     .footer-google-maps{
+         text-align: center;
+    }
+     .footer-logo{
+         text-align: center;
+    }
+     .footer-copyright{
+         text-align: center;
+    }
+     .footer-credit {
+         text-align: center;
+    }
+}
+/*CSS appears when device min-width 601px and max width 1024px */
+ @media only screen and (min-device-width : 601px) and (max-device-width : 1024px) {
+     .top-social-circle{
+         display: none;
+    }
+     .top-phone{
+         display: none;
+    }
+     .top-email{
+         display: none;
+    }
+     .top-opening-hour{
+         display: none;
+    }
+     .tab-logo{
+         display: block;
+    }
+     .navbar-logo{
+         display: none;
+    }
+     .topbar-logo{
+         display: none;
+    }
+     .navbar-button{
+         display: none;
+    }
+     .banner-main-title {
+         font-size: 44px;
+    }
+     .about-information{
+         display: none;
+    }
+     .card {
+         min-width: 170px;
+    }
+     .trainer-desc{
+         display: none;
+    }
+     .testimonials .share {
+         width: 11rem;
+    }
+     .main_nav, .main_nav .black{
+         background: #fdfdfd;
+         padding: 0;
+    }
+     .main_nav ul{
+         position: absolute;
+         width: 76%;
+         left: 0;
+         background: #729bc5;
+         float: none;
+         display: none;
+    }
+     .main_nav ul.active{
+         display: block;
+    }
+     .main_nav ul li{
+         width: 100%;
+    }
+     .main_nav ul li a{
+         display: block;
+         padding: 10px;
+         font-size: 27px;
+         width: 100%;
+         text-align: center;
+         line-height: 30px !important;
+         color: #000000;
+    }
+     .main_nav .mobile-navbar{
+         display: block;
+    }
+     .topbar-contact{
+         display: none;
+    }
+     .top_header img {
+         padding-left: 13.25rem;
+    }
+     .main_nav ul{
+         display: none;
+    }
+     .main_nav{
+         padding-left: 0;
+         background: #5b9cdf;
+        ;
+         padding-top: 0;
+         padding-bottom: 0;
+    }
+     .mobile-navbar{
+         padding: 22px 67px 22px 14px;
+         font-size: 40px;
+    }
+     .mobile-navbar i{
+         color: #000000;
+    }
+     .topbar-contact-details{
+         padding-top: 34px;
+    }
+     .topbar-contact-details p{
+         color: #ffffff;
+         margin: 0;
+         font-size: 14px;
+    }
+     .topbar-contact-details .bar{
+         color: #ffffff;
+         opacity: .3;
+    }
+     .topbar-contact-details i{
+         border-radius: 100%;
+         border: 3px solid #ffffff;
+         padding: 10px 12px;
+    }
+     .topbar-contact-details .fa{
+         padding-left: 11px;
+    }
+     .topbar-contact-details .top_icon{
+         padding-left: 11px;
+    }
+     .our-courses-image img {
+         height: 124px;
+    }
+     .about-main-image img {
+         height: 100%;
+         width: 100%;
+    }
+     .success-border {
+         border-right: 1px solid #ffffff;
+    }
+     .success-story-three {
+         border-right: 1px solid #ffffff;
+    }
+     .blog-social-circle ul {
+         top: 56%;
+         left: 43%;
+    }
+     .blog-social-circle ul li a {
+         width: 35px;
+         height: 35px;
+    }
+     .our-pricing-package {
+         min-height: 689px;
+    }
+     .our-pricing-package-two{
+         min-height: 689px;
+    }
+     .blog-publication-details .date {
+         padding: 0 3px;
+    }
+     .footer-google-maps iframe{
+         width: 184px;
+    }
+     .success-story-image img {
+         height: 119px;
+         width: 114px;
+    }
+     .our-trainer-image img {
+         height: 119px;
+         width: 114px;
+    }
+     .our-trainer-one {
+         padding: 32px 0 57px 35px;
+    }
+     .social-circle ul {
+         display: none;
+    }
+     #scroll {
+         right: 41px;
+         bottom: 18px;
+    }
+}
+ 

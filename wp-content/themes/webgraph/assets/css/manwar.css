@@ -1,0 +1,528 @@
+/*Breadcrum css start*/
+.breadcrum{
+    background-image: url('../img/breadcrum_background.png');
+    padding: 80px 0px;
+}
+.breadcrum_content{
+    text-align: center;
+    color: white;
+}
+.breadcrum_content h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.breadcrum_content hr{
+    width: 80px;
+    height: 4px;
+    background-color: #5b9cdf;
+    border: 0;
+}
+/*Breadcrum css end*/
+
+
+
+/*Blog content css start*/
+.blog_content{
+    margin-top: 90px;
+}
+.single_blog{
+}
+.blog-card{
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 0px;
+    margin-bottom: 30px;
+}
+.blog-card-body{
+    margin: 0px;
+    padding: 0px;
+}
+.blog-card-body h5{
+    text-align: left;
+    font-size: 19px;
+    color: #1d2c4e;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.blog-card-body a{
+    text-align: left;
+    font-size: 19px;
+    color: #1d2c4e;
+    font-weight: 600;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.blog-card-body p{
+    font-size: 13px;
+    color: #7a829f;
+    margin-top: 20px;
+}
+.blog-card-body h6{
+    color: #1d2c4e;
+    font-size: 14px;
+    font-weight: 400;
+}
+.blog-card-body .comments-link{
+    color: #1d2c4e;
+    font-size: 14px;
+    font-weight: 400;
+}
+.blog-date{
+    margin-left: 20px;
+}
+.blog_profile img{
+    border: 1px solid #d0d0d0;
+    border-radius: 100%;
+    float: left;
+}
+.blog_profile h6{
+    font-size: 14px;
+    color: #1d2c4e;
+    padding: 7px 0px 0px 40px;
+}
+.main-page-button{
+    margin-top: 25px;
+}
+.main-page-button a{
+    font-size: 14px;
+    color: white;
+    background-color: #5b9cdf;
+    border: none;
+    padding: 8px 36px;
+    box-shadow: 0px 10px 29px #c4e4f7;
+    transition: .3s;
+    cursor: pointer;
+    border: 1px solid #5b9cdf;
+}
+.main-page-button a:hover{
+    border: 1px solid #5b9cdf;
+    background: none;
+    color: #5b9cdf;
+    box-shadow: none;
+}
+.pagination-area{
+    margin-top: 40px;
+}
+.pagination a{
+    font-size: 20px;
+    color: #b3bad0;
+    font-weight: 300;
+    padding: 12px 20px;
+    border: 1px solid #e3e3e3;
+    text-decoration: none;
+}
+.pagination span{
+    font-size: 20px;
+    color: #b3bad0;
+    font-weight: 300;
+    padding: 12px 20px;
+    border: 1px solid #e3e3e3;
+}
+.pagination a:hover{
+    color: white;
+    background: #5b9cdf;
+}
+.aside{
+}
+.search-area{
+}
+.col input{
+    background: #eeeeee;
+    transition: .3s;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+}
+.col input:focus{
+    background: #eeeeee;
+}
+.col-auto button{
+    border: none;
+    background: #eeeeee;
+    padding: 15px;
+    font-size: 14px;
+}
+.col-auto button:hover{
+    background: #5b9cdf;
+}
+.aside-title{
+    font-size: 25px;
+    color: #1d2c4e;
+    font-weight: 600;
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 7px;
+    margin: 60px 0px 20px 0px;
+
+}
+.categories ul{
+    padding: 0px;
+}
+.categories li{
+    list-style: none;
+    margin: 5px 0px;
+}
+.categories ul li a{
+    font-size: 14px;
+    color: #7a829f;
+    text-decoration: none;
+    transition: .2s;
+}
+.categories ul li a:hover{
+    transform: translate(12px, 0px);
+    color: #5b9cdf;
+}
+.recent-post-content-column{
+    padding: 0;
+}
+.recent-post-content a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1d2c4e;
+}
+.recent-post-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #7a829f;
+}
+.recent-post{
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 15px;
+}
+.tags a{
+    font-size: 12px;
+    color: white;
+    background: #5b9cdf;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 200px;
+    border: 1px solid #5b9cdf;
+    display: inline-block;
+    margin: 0px 4px 10px 0;
+    box-shadow: 0px 5px 10px #dcecf5;
+    transition: .2s;
+}
+.tags a:hover{
+    background: none;
+    border: 1px solid #5b9cdf;
+    color: #5b9cdf;
+    box-shadow: none;
+}
+/*Blog content css start*/
+.blog-details-area{
+    margin-top: 90px;
+}
+.blog-details{
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+}
+.blog-details-content{
+    padding: 30px;
+}
+.blog-details-content h3{
+    font-size: 25px;
+    color: #1d2c4e;
+    font-weight: 600;
+}
+.blog-details-content p{
+    font-size: 16px;
+    color: #7a829f;
+    font-weight: 300;
+    line-height: 27px;
+}
+.blog-details-tag a{
+    font-size: 12px;
+    color: white;
+    background: #7a829f;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 200px;
+    border: 1px solid #7a829f;
+    display: inline-block;
+    margin: 0px 4px 10px 0;
+    box-shadow: 0px 5px 10px #ecedef;
+    transition: .2s;
+}
+.blog-details-tag a:hover{
+    background: none;
+    border: 1px solid #7a829f;
+    color: #7a829f;
+    box-shadow: none;
+}
+.blog-details-tag{
+    border-top: 1px solid #eaeaea;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+.related-post-area{
+
+}
+.related-post h5{
+    font-size: 14px;
+    color: #1d2c4e;
+    margin-top: 8px;
+}.related-post p{
+    font-size: 14px;
+    color: #7a829f;
+}
+.related-post a{
+    text-decoration: none;
+}
+.published-content-image{
+    width: 25%;
+    float: left;
+}
+.published-content-details{
+    width: 75%;
+    float: left;
+}
+.published-content-details h3{
+    font-size: 20px;
+    color: #1d2c4e;
+    font-weight: 600;
+}
+.published-content-details p{
+    margin-bottom: 0rem;
+    margin-bottom: 0rem;
+    font-size: 14px;
+    color: #7a829f;
+    font-weight: 300;
+}
+.published-content-details a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #434b69;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.published-content-details a:hover{
+    color: #5b9cdf;
+}
+.published-social ul{
+    display: flex;
+    padding: 0px;
+    margin-top: 23px;
+}
+.published-social ul li{
+    list-style: none;
+    margin-right: 15px;
+    transition: .3s;
+}
+.published-social ul li a:hover{
+    color: #007bff;
+}
+.total-comment{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.comment-area{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 13px 0px 13px 17px;
+    margin-bottom: 20px;
+    border: 2px solid #e3e3e3;
+    transition: .2s;
+}
+.comment-area:focus{
+    outline: none;
+    background: #e3e3e3;
+}
+.inner-page-button{
+    font-size: 14px;
+    color: white;
+    background-color: #5b9cdf;
+    border: none;
+    padding: 8px 36px;
+    box-shadow: 0px 10px 29px #c4e4f7;
+    transition: .3s;
+    cursor: pointer;
+    border: 1px solid #5b9cdf;
+}.inner-page-button:hover{
+    border: 1px solid #5b9cdf;
+    background: none;
+    color: #5b9cdf;
+    box-shadow: none;
+}
+.posted-comment{
+    margin-top: 60px;
+    background: #fbfecb;
+    padding: 20px;
+}
+.comment-profile-area{
+    width: 60%;
+    float: left;
+}
+.comment-date-area{
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+.comment-profile-area img{
+    border-radius: 100%;
+    border: 1px solid #d1d499;
+    float: left;
+}
+.comment-profile-area h4{
+    font-size: 18px;
+    color: #1d2c4e;
+    margin: 10px 0px 0px 10px;
+    display: inline-block;
+}
+.comment-date-area h6{
+    color: #1d2c4e;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 13px 0px;
+}
+.posted-comment-date{
+    margin-left: 10px;
+}
+.posted-comment-area{
+    font-size: 14px;
+    color: #333421;
+    margin-top: 15px;
+    line-height: 24px;
+}
+.posted-comment-area-button{
+    font-size: 14px;
+    color: #435376;
+    background: #fbfecb;
+    border: 2px solid #d3d5aa;
+    padding: 8px 36px;
+    transition: .3s;
+    cursor: pointer;
+}.posted-comment-area-button:hover{
+    border: 2px solid #d3d5aa;
+    background: #d3d5aa;
+    box-shadow: none;
+}
+/*breadcrum_content css end*/
+.footer{
+    margin-top: 90px;
+}
+
+.recent-footer-post-content-column{
+    padding: 0;
+}
+.recent-footer-post-content a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.recent-footer-post-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #7a829f;
+}
+.recent-footer-post{
+    border-bottom: 1px solid #4c4e52;
+    margin-bottom: 15px;
+}
+
+/*Our courses css start*/
+.our-coursrs-section{
+    padding: 0 0 100px 0;
+}
+.text-align-center{
+    text-align: center;
+}
+.single-course{
+    padding: 30px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 8px 43px #eeeeee;
+}
+.single-course img{
+    margin-bottom: 25px;
+}
+.single-course h5{
+    font-size: 20px;
+    color: #3c3c3c;
+}
+.single-course h1{
+    font-size: 35px;
+    color: #615e81;
+    font-weight: 700;
+}
+.single-course button{
+    font-size: 14px;
+    color: #171717;
+    cursor: pointer;
+    background: white;
+    border: 2px solid #5b9cdf;
+    padding: 10px 33px;
+    border-radius: 100px;
+    margin-top: 15px;
+    transition: .2s;
+}
+.single-course button:hover{
+    background: #5b9cdf;
+    border: 2px solid #5b9cdf;
+    color: white;
+}
+.load-more-button-area button{
+    background: #5b9cdf;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 33px;
+    transition: .2s;
+    border-radius: 100px;
+    border: 2px solid #5b9cdf;
+    margin-top: 30px;
+    box-shadow: 0px 10px 29px #c0d8f1;
+}
+.load-more-button-area button:hover{
+    background: white;
+    border: 2px solid #5b9cdf;
+    color: #171717;
+    box-shadow: none;
+}
+/*Our courses css end*/
+
+/*About css start*/
+.about{
+    padding: 100px 0px 50px 0px;
+}
+.imgge-area{
+    text-align: center;
+}
+.image-area img{
+    transition: .3s;
+    border: 10px solid white;
+    outline: 1px solid #efefef;
+}
+.image-area img:hover{
+    filter:contrast(110%) brightness(110%);
+    border: 10px solid #5b9cdf;
+}
+.about-content-area h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #54555d;
+}
+.about-content-area p{
+    font-size: 16px;
+    color: #848490;
+    font-weight: 300;
+    line-height: 27px;
+    margin-top: 45px;
+}
+/*About css end*/
+/*Who we are css start*/
+.how-we-work-image img{
+    transition: .3s;
+    border: 10px solid white;
+    outline: 1px solid #efefef;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.how-we-work-image img:hover{
+    filter:contrast(110%) brightness(110%);
+    border: 10px solid #5b9cdf;
+}

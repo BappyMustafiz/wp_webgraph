@@ -1,0 +1,708 @@
+/*
+Theme Name: Webgraph
+Theme URI: http://versatileitbd.com/themes/webgraph
+Author: Versatile It Bd.
+Author URI: http://versatileitbd.com/
+Description: Webgraph - Training center template
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: webgraph theme, training center, responsive 
+Text Domain: webgraph
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.navbar-collapse ul li a{
+	padding-right: .5rem;
+    padding-left: .5rem;
+    color: #fafbfc!important;
+}
+.navbar-collapse ul li{
+	padding: 1rem 0;
+}
+.navbar-collapse ul li a:hover{
+	text-decoration: none;
+	border-bottom: 3px solid #d9d9d9;
+	padding-bottom: 10px;
+}
+.dropdown-menu{
+	    background-color: #5b9cdf!important;
+}
+
+/*slider css*/
+.comment-author.vcard img {
+
+    float: left;
+
+    margin-right: 20px;
+
+    border-radius: 40px;
+
+}
+
+.comment-list cite.fn {
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    font-size: 14px;
+
+    padding-right: 5px;
+
+}
+
+.comment-body {
+
+    border: 2px solid #dadada;
+
+    padding: 15px;
+
+    border-radius: 4px;
+
+    margin: 20px 20px 20px -15px;   
+
+}
+
+.reply{
+
+  margin: 10px 0 5px 20px;
+
+}
+
+.comment-form label{
+
+  width: 12%;
+
+  float: left;
+
+}
+
+.comment-form input[type="text"] {
+
+  width: 96%;
+
+  height: 32px;
+
+  padding: 7px;
+
+  border: 2px solid #f1f1f1;
+
+  border-radius: 4px;
+
+}
+
+.form-submit input[type="submit"] {
+
+font-size: 14px;
+	color: white;
+	background-color: #5b9cdf;
+	border: none;
+	padding: 8px 36px;
+	box-shadow: 0px 10px 29px #c4e4f7;
+	transition: .3s;
+	cursor: pointer;
+	border: 1px solid #5b9cdf;
+
+}
+
+.form-submit input[type="submit"]:hover {
+
+    border: 1px solid #5b9cdf;
+    background: none;
+    color: #5b9cdf;
+    box-shadow: none;
+
+}
+
+form#commentform input#email {
+
+    width: 96%;
+
+    height: 32px;
+
+    padding: 7px;
+
+    border: 2px solid #f1f1f1;
+
+    border-radius: 4px;
+
+}
+
+form#commentform input#url {
+
+    width: 96%;
+    height: 32px;
+    padding: 7px;
+    border: 2px solid #f1f1f1;
+    border-radius: 4px;
+
+}
+
+p.form-submit {
+
+    margin-top: 25px;
+
+}
+
+.reply a {
+
+	 font-size: 14px;
+    color: #435376;
+    background: #fbfecb;
+    border: 2px solid #d3d5aa;
+    padding: 8px 36px;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.reply a:hover {
+	border: 2px solid #d3d5aa;
+    background: #d3d5aa;
+    box-shadow: none;
+
+}
+h2.comments-title {
+
+    color: #26629e !important;
+
+    margin: 20px 25px 0 15px !important;
+
+    background: none !important;
+
+}
+
+.comment-meta.commentmetadata a {
+
+  text-decoration: none;
+
+  font-size: 12px;
+
+}
+
+.comment-list ol.children {
+
+  margin-top: 25px;
+
+  margin-left: 45px;
+
+  list-style: none;
+
+}
+
+.comments-area ol.comment-list {
+
+    list-style: none;
+
+}
+
+ol.comment-list p {
+    margin-bottom: 0;
+
+}
+textarea#comment {
+    width: 95%;
+}
+.commentlist li{
+	list-style: none;
+}
+
+/*author details css*/
+.author-details-page{
+  margin-top: 90px;
+}
+
+.author-details-left .card {
+    background: #FFFFFF;
+    height: 398px;
+    overflow: hidden;
+    text-align: center;
+    -webkit-transition: .2s ease-in-out;
+}
+.author-details-left .card-banner {
+  background: url('https://images.unsplash.com/photo-1531330969550-7e8a9b2fb3df?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=a03bd3a711775d6e4f3d742237adbf8e');
+  width: inherit;
+  height: 100px;
+  padding-top: 35px;
+  background-color: #fafafa;
+  background-position: top;
+  background-size: cover;
+}
+
+.author-details-left .card-profile{
+  width: 100px;
+  height: 100px;
+  margin: auto auto;
+  background-size: cover;
+  margin-top: 30px;
+}
+.author-details-left h3 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #212121;
+    text-transform: uppercase;
+}
+.author-details-left ul {
+  background: #fafafa;
+  margin-top: 30px;
+  padding: 5px 0;
+}
+
+.author-details-left ul a {
+  display: inline;
+  margin-right: 15px;
+  color: #867b7b;
+}
+.author-details-left ul a:hover {
+  color: #5b9cdf;
+}
+.author-details-left ul a:last-of-type {
+  margin-right: 0px;
+}
+.author-details-left ul a i {
+  color: inherit;
+  background: #fafafa;
+}
+
+.carousel img {
+  width: 100%;
+}
+ .slider-button {
+    margin-top: 45px;
+}
+.slider-button a {
+    padding: 12px 27px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(253, 253, 253);
+    background-color: inherit;
+    border-radius: 52px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    transition: .2s;
+}
+ .slider-button a:hover{
+    background-color: #5b9cdf;
+    border: 1px solid #5b9cdf;
+    
+}
+
+/*registration form css*/
+.registration-page {
+  font-size: 14px;
+  background: #f2f2f2;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+.form_wrapper {
+  background: #fff;
+  width: 400px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  margin: 8% auto 0;
+  position: relative;
+  border-top: 5px solid #f5ba1a;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  -webkit-transition: none;
+  transition: none;
+  -webkit-animation: expand 0.8s 0.6s ease-out forwards;
+  animation: expand  ease-out forwards;
+  opacity: 0;
+}
+.form_wrapper h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 0;
+}
+.form_wrapper .title_container {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.form_wrapper h3 {
+  font-size: 1.1em;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin: 0;
+}
+.form_wrapper label {
+  font-size: 12px;
+}
+.form_wrapper .row {
+  margin: 10px -15px;
+}
+.form_wrapper .row > div {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.form_wrapper .col_half {
+  width: 50%;
+  float: left;
+}
+.form_wrapper .input_field {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form_wrapper .input_field > span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #333;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  width: 30px;
+}
+.form_wrapper .input_field > span > i {
+  padding-top: 10px;
+}
+.form_wrapper .textarea_field > span > i {
+  padding-top: 10px;
+}
+.form_wrapper input[type="text"], .form_wrapper input[type="email"], .form_wrapper input[type="password"] {
+  width: 100%;
+  padding: 8px 10px 9px 35px;
+  height: 35px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.form_wrapper input[type="text"]:hover, .form_wrapper input[type="email"]:hover, .form_wrapper input[type="password"]:hover {
+  background: #fafafa;
+}
+.form_wrapper input[type="text"]:focus, .form_wrapper input[type="email"]:focus, .form_wrapper input[type="password"]:focus {
+  -webkit-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+  -moz-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+  box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+  border: 1px solid #f5ba1a;
+  background: #fafafa;
+}
+.form_wrapper input[type="submit"] {
+  background: #f5ba1a;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.form_wrapper input[type="submit"]:hover {
+  background: #e1a70a;
+}
+.form_wrapper input[type="submit"]:focus {
+  background: #e1a70a;
+}
+.form_wrapper input[type="checkbox"], .form_wrapper input[type="radio"] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.form_container .row .col_half.last {
+  border-left: 1px solid #ccc;
+}
+.checkbox_option label {
+  margin-right: 1em;
+  position: relative;
+}
+.checkbox_option label:before {
+  content: "";
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 0.5em;
+  vertical-align: -2px;
+  border: 2px solid #ccc;
+  padding: 0.12em;
+  background-color: transparent;
+  background-clip: content-box;
+  transition: all 0.2s ease;
+}
+.checkbox_option label:after {
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  content: "";
+  height: 20px;
+  left: 2px;
+  position: absolute;
+  top: 7px;
+  transform: scaleX(-1) rotate(135deg);
+  transform-origin: left top;
+  width: 7px;
+  display: none;
+}
+.checkbox_option input:hover + label:before {
+  border-color: #000;
+}
+.checkbox_option input:checked + label:before {
+  border-color: #000;
+}
+.checkbox_option input:checked + label:after {
+  -moz-animation: check 0.8s ease 0s running;
+  -webkit-animation: check 0.8s ease 0s running;
+  animation: check 0.8s ease 0s running;
+  display: block;
+  width: 7px;
+  height: 20px;
+  border-color: #000;
+}
+.radio_option label {
+  margin-right: 1em;
+}
+.radio_option label:before {
+  content: "";
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 0.5em;
+  border-radius: 100%;
+  vertical-align: -3px;
+  border: 2px solid #ccc;
+  padding: 0.15em;
+  background-color: transparent;
+  background-clip: content-box;
+  transition: all 0.2s ease;
+}
+.radio_option input:hover + label:before {
+  border-color: #000;
+}
+.radio_option input:checked + label:before {
+  background-color: #000;
+  border-color: #000;
+}
+.select_option {
+  position: relative;
+  width: 100%;
+}
+.select_option select {
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+  padding: 0px 15px;
+  cursor: pointer;
+  color: #7b7b7b;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  background: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: all 0.2s ease;
+}
+.select_option select::-ms-expand {
+  display: none;
+}
+.select_option select:hover, .select_option select:focus {
+  color: #000;
+  background: #fafafa;
+  border-color: #000;
+  outline: none;
+}
+.select_arrow {
+  position: absolute;
+  top: calc(50% - 4px);
+  right: 15px;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-width: 8px 5px 0 5px;
+  border-style: solid;
+  border-color: #7b7b7b transparent transparent transparent;
+}
+.select_option select:hover + .select_arrow, .select_option select:focus + .select_arrow {
+  border-top-color: #000;
+}
+.credit {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 15px;
+  color: #f5ba1a;
+}
+.credit a {
+  color: #e1a70a;
+}
+@-webkit-keyframes check {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  25% {
+    height: 0;
+    width: 7px;
+  }
+  50% {
+    height: 20px;
+    width: 7px;
+  }
+}
+@keyframes check {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  25% {
+    height: 0;
+    width: 7px;
+  }
+  50% {
+    height: 20px;
+    width: 7px;
+  }
+}
+@-webkit-keyframes expand {
+  0% {
+    -webkit-transform: scale3d(1, 0, 1);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: scale3d(1, 1.2, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1, 0.85, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1, 1.05, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+}
+@keyframes expand {
+  0% {
+    -webkit-transform: scale3d(1, 0, 1);
+    transform: scale3d(1, 0, 1);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: scale3d(1, 1.2, 1);
+    transform: scale3d(1, 1.2, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1, 0.85, 1);
+    transform: scale3d(1, 0.85, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1, 1.05, 1);
+    transform: scale3d(1, 1.05, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translate3d(0, -25px, 0);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate3d(0, 10px, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0, -6px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 2px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes bounce {
+  0% {
+    -webkit-transform: translate3d(0, -25px, 0);
+    transform: translate3d(0, -25px, 0);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0, -6px, 0);
+    transform: translate3d(0, -6px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 2px, 0);
+    transform: translate3d(0, 2px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@media (max-width: 600px) {
+  .form_wrapper .col_half {
+    width: 100%;
+    float: none;
+  }
+  .bottom_row .col_half {
+    width: 50%;
+    float: left;
+  }
+  .form_container .row .col_half.last {
+    border-left: none;
+  }
+  .remember_me {
+    padding-bottom: 20px;
+  }
+}
+.our-coursrs-section-single{
+  padding: 100px 0 0 0;
+}
+.student-opinion-single{
+  padding: 100px 0 0 0;
+}
+.footer{
+  margin-top: 0;
+}
+.our-trainer{
+  background: #f2f2f2;
+  padding: 0 0 50px 0;
+}
+.carousel-caption{
+  bottom: 78px;
+}
+.carousel-caption h3{
+  font-size: 43px;
+  text-transform: capitalize;
+}
+.carousel-caption p{
+  font-size: 14px;
+    font-weight: 300;
+}

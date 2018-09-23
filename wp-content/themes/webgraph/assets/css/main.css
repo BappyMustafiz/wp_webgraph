@@ -1,0 +1,1452 @@
+/* ----------------------------------------------------- 
+[Master StyleSheet] 
+Project: Webgraph - Training Center Landing Page
+Version: 1.0
+Last Change:04.06.2018 
+Author Name: Versatile IT Limited
+Primary use: Webgraph is a clean and modern training center one page template for all kinds of Training center like School, College, University & Training center. It is perfect for any kind Training center website.
+-------------- Table of Content -------------------*/
+/*--------------------------------------------------- 
+[Table of contents] 
+1. Genarel (html, body, hr, audio, canvas, iframe, img, svg, video, textarea etc )
+2. Import Css
+3. Header Css 
+4. Banner Css 
+5. About Us Css 
+6. Our Courses Css 
+7. Upcoming Courses Css 
+8. Our Trainer Css 
+9. Student opinion Css 
+10. Contact Us Css 
+11. Subscribe Css 
+12. Our Details Css 
+13. Footer Css 
+14. Scroll Css 
+---------------------------------------------------*/
+/* ===================================== 
+01. General CSS 
+===================================== */
+ html {
+     color: #222;
+     font-size: 1em;
+     line-height: 1.4;
+}
+ body{
+     font-family: 'Roboto', sans-serif;
+}
+/* * Remove text-shadow in selection highlight: * https://twitter.com/miketaylr/status/12228805301 * * Vendor-prefixed and regular ::selection selectors cannot be combined: * https://stackoverflow.com/a/16982510/7133471 * * Customize the background color to match your design. */
+/* * A better looking default horizontal rule */
+ hr{
+     border: 1px solid #eaeaea;
+}
+/* * Remove the gap between audio, canvas, iframes, * images, videos and the bottom of their containers: * https://github.com/h5bp/html5-boilerplate/issues/440 */
+ audio, canvas, iframe, img, svg, video {
+     vertical-align: middle;
+}
+/* * Remove default fieldset styles. */
+ fieldset {
+     border: 0;
+     margin: 0;
+     padding: 0;
+}
+/* * Allow only vertical resizing of textareas. */
+ textarea {
+     resize: vertical;
+}
+/*css for textarea color*/
+ .form-control::-webkit-input-placeholder{
+     color: #323232;
+}
+ .form-control:-ms-input-placeholder{
+     color: #323232;
+}
+ .form-control::-moz-placeholder{
+     color: #323232;
+     opacity: 1;
+}
+ .form-control:-moz-placeholder{
+     color: #323232;
+     opacity: 1;
+}
+ .form-control:focus {
+     background-color: #fff;
+     border-color: #323232;
+     outline: 0;
+     box-shadow: none;
+}
+
+/* ========================================================================== 
+Browser Upgrade Prompt 
+========================================================================== */
+ .browserupgrade {
+     margin: 0.2em 0;
+     background: #ccc;
+     color: #000;
+     padding: 0.2em 0;
+}
+/* ===================================== 
+02. Import CSS 
+===================================== */
+ 
+ body{
+     font-family: 'Poppins', sans-serif;
+}
+/* =====================================
+ 03. Header CSS 
+ ===================================== */
+/*top header start*/
+ .container-fluid{
+     padding: 0px 98px;
+}
+ .top_header{
+     background: #ffffff;
+     padding: 17px 0;
+}
+ .top_header p{
+     color: #2a2c2e;
+     margin: 0;
+     font-size: 15px;
+     padding-right: 19px;
+}
+ .top_header .top-icon{
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+     border: 2px solid #d9d9d9;
+     padding: 6px 7px;
+}
+ .top-phone{
+     padding-left: 10px;
+}
+ .top-social-circle ul{
+     display: flex;
+     position: absolute;
+     top: 61%;
+     left: 65%;
+     transform: translate(-50%, -45%);
+}
+ .top-social-circle ul li{
+     list-style: none;
+}
+ .top-social-circle ul li a{
+     width: 40px;
+     height: 40px;
+     text-align: center;
+     line-height: 44px;
+     display: block;
+     position: relative;
+     overflow: hidden;
+}
+ .top-social-circle ul li a .fa{
+     position: relative;
+     color: #2a2c2e;
+     transition: 1s;
+     top: -11%;
+     left: 2px;
+}
+ .top-social-circle ul li a:hover .fa{
+     color: #5b9cdf;
+     z-index: 3;
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+     border: 2px solid #d9d9d9;
+     padding: 6px 5px;
+}
+ .tab-logo{
+     display: none;
+}
+/*Top Header End*/
+/*navbar css start*/
+ .black{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     transition: .10s;
+     z-index: 1;
+     background: #243270;
+}
+.navbar{
+     background-color: #5b9cdf;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fafbfc!important;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #2f3135!important;
+}
+ .nav-link{
+     padding: 1rem 0;
+}
+.menu-active{
+     border-bottom: 3px solid #d9d9d9;
+}
+/*Navbar CSS End*/
+/* End Header CSS */
+/* ===================================== 
+04. Banner CSS 
+===================================== */
+/*banner css start*/
+ .banner_section{
+     background: linear-gradient(to bottom, #ffffff, #d5e0ec);
+}
+ .banner-main-title{
+     margin: 0 auto;
+     padding-top: 135px;
+     font-size: 55px;
+     font-weight: 300;
+     color: #000000;
+}
+ .banner-main-title p{
+     margin-bottom: 0;
+}
+ .banner-description{
+     margin: 0 auto;
+     color: #000000;
+     font-size: 15px;
+     font-weight: 400;
+}
+ .banner-description p{
+     margin-bottom: 0;
+}
+ .banner-button{
+     margin: 0 auto;
+     padding: 34px 0 136px 0;
+}
+ .banner-button button {
+     padding: 12px 27px;
+     font-size: 14px;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-weight: 500;
+     color: #000000;
+     background-color: inherit;
+     border: none;
+     border-radius: 45px;
+     cursor: pointer;
+     border: 2px solid #5b9cdf;
+}
+ .banner-button button:hover{
+     background-color: #5b9cdf;
+     color: #fff;
+     transition: .2s;
+}
+/* End Banner CSS */
+/* ===================================== 
+05. About Us CSS 
+===================================== */
+/*how we work css start*/
+ #how-we-work{
+     padding: 112px 0 100px 0;
+}
+ .how-we-work-title{
+     font-size: 40px;
+     font-weight: 600;
+     padding-bottom: 60px;
+     color: #323232;
+}
+ .how-we-work-title p{
+     margin-bottom: 0;
+}
+ .how-we-work-hr{
+     width: 15%;
+     margin: 0;
+     border: 2px solid #5b9cdf;
+}
+ .how-we-work-section-title{
+     font-size: 25px;
+     font-weight: 600;
+     color: #515151;
+}
+ .how-we-work-section-title p{
+     margin-bottom: 0;
+}
+ .how-we-work-section-desc{
+     font-size: 16px;
+     font-weight: 400;
+     color: #6d6d6d;
+     padding-right: 65px;
+}
+ .how-we-work-image img{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*How we work CSS end*/
+/*introduction css start*/
+ .introduction{
+     background: #f2f2f2;
+     padding: 112px 0 100px 0;
+}
+ .introduction-image {
+     text-align: center;
+}
+ .introduction-image img{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 10px;
+}
+ .owner-title p{
+     margin-bottom: 0;
+     font-size: 40px;
+     font-weight: 600;
+     color: #323232;
+}
+ .owner-designation p{
+     margin-bottom: 0;
+     font-size: 19px;
+     font-weight: 500;
+     color: #6d6d6d;
+     padding-bottom: 55px;
+}
+ .owner-comment p{
+     margin-bottom: 0;
+     font-size: 22px;
+     font-weight: 600;
+     color: #5b9cdf;
+     padding-bottom: 15px;
+}
+ .owner-comment-short-desc p{
+     font-size: 16px;
+     font-weight: 400;
+     color: #474747;
+}
+ .owner-comment-long-desc p{
+     margin-bottom: 0;
+     font-size: 16px;
+     font-weight: 400;
+     color: #474747;
+}
+ .owner-profile-button{
+     padding-top: 35px;
+}
+ .owner-profile-button button {
+     padding: 12px 27px;
+     font-size: 14px;
+     font-weight: 500;
+     text-transform: uppercase;
+     color: #ffffff;
+     background-color: #5b9cdf;
+     border: none;
+     border-radius: 45px;
+     cursor: pointer;
+     border: 2px solid #5b9cdf;
+}
+ .owner-profile-button button:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     background-color: inherit;
+     border: 2px solid #5b9cdf;
+     color: #5b9cdf;
+     transition: .2s;
+}
+/*introduction css end*/
+/* ===================================== 
+06. Our Courses CSS 
+===================================== */
+/*our courses start*/
+ .our-courses-title{
+     margin: 0 auto;
+     text-transform: capitalize;
+     font-weight: 700;
+     font-size: 40px;
+     color: #000000;
+     padding: 100px 0 60px 0;
+}
+ .our-courses-title p{
+     margin-bottom: 0;
+}
+ .our-courses-title-hr{
+     width: 30%;
+     margin-top: 0;
+     border: 2px solid #5b9cdf;
+     margin-bottom: 0;
+}
+ .our-courses-total{
+     padding-bottom: 60px;
+}
+ .container-fostrap {
+     display: table-cell;
+     padding: 1em;
+     text-align: center;
+     vertical-align: middle;
+}
+ .fostrap-logo {
+     width: 100px;
+     margin-bottom:15px 
+}
+ h1.heading {
+     color: #fff;
+     font-size: 1.15em;
+     font-weight: 900;
+     margin: 0 0 0.5em;
+     color: #505050;
+}
+ @media (min-width: 450px) {
+     h1.heading {
+         font-size: 3.55em;
+    }
+}
+ @media (min-width: 760px) {
+     h1.heading {
+         font-size: 3.05em;
+    }
+}
+ @media (min-width: 900px) {
+     h1.heading {
+         font-size: 3.25em;
+         margin: 0 0 0.3em;
+    }
+}
+ .card {
+     margin-bottom: 40px !important;
+     display: block;
+     margin-bottom: 20px;
+     line-height: 1.42857143;
+     background-color: #fdfdfd;
+     border-radius: 2px;
+     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+     transition: box-shadow .25s;
+}
+ .card:hover {
+     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+ .img-card {
+     width: 100%;
+     height:200px;
+     border-top-left-radius:2px;
+     border-top-right-radius:2px;
+     display:block;
+     overflow: hidden;
+}
+ .img-card img{
+     width: 100%;
+     height: 200px;
+     object-fit:cover;
+     transition: all .25s ease;
+}
+ .card-content {
+     padding:15px;
+     text-align:left;
+}
+ .card-title {
+     padding-top: 30px;
+     text-align: center;
+}
+ .card-title a {
+     color: #505050;
+     text-decoration: none !important;
+     font-size: 22px;
+     font-weight: 700;
+}
+ .card-read-more {
+     border-top: 2px solid #D4D4D4;
+}
+ .card-read-more a {
+     text-decoration: none !important;
+     padding:10px;
+     font-weight:600;
+     text-transform: uppercase 
+}
+ .tab-wrapper {
+     text-align: center;
+     display: block;
+     margin: auto;
+     max-width: 500px;
+}
+ .tabs {
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+}
+ .tab-link {
+     margin: 0 1%;
+     list-style: none;
+     padding: 7px 30px;
+     color: #747474;
+     cursor: pointer;
+     font-weight: 500;
+     font-size: 14px;
+     transition: all ease 0.5s;
+     border: 2px solid #dadada;
+     border-radius: 50px;
+}
+ .tab-link:hover {
+     color: #2d2828;
+     border-color: #999;
+}
+ .tab-link.active {
+     background: #5b9cdf;
+     border: 2px solid #5b9cdf;
+}
+ .tab-link:nth-of-type(1).active {
+     background: #5b9cdf;
+     color: #ffffff;
+     border: 2px solid #5b9cdf;
+}
+ .tab-link:nth-of-type(2).active {
+     background: #5b9cdf;
+     color: #ffffff;
+     border: 2px solid #5b9cdf;
+}
+ .tab-link:nth-of-type(3).active {
+     background: #5b9cdf;
+     color: #ffffff;
+     border: 2px solid #5b9cdf;
+}
+ .tab-link:nth-of-type(4).active {
+     background: #5b9cdf;
+     color: #ffffff;
+     border: 2px solid #5b9cdf;
+}
+ .tab-link:nth-of-type(5).active {
+     background: #5b9cdf;
+     color: #ffffff;
+     border: 2px solid #5b9cdf;
+}
+ .content-wrapper {
+     padding: 31px 0 0 0;
+}
+ .tab-content {
+     display: none;
+     text-align: center;
+     font-weight: 300;
+     font-size: 15px;
+     transform: translateY(15px);
+     animation: fadeIn 0.5s ease 1 forwards;
+}
+ .tab-content.active {
+     display: block;
+}
+ .price-btn {
+     position: absolute;
+     top: 37%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: #ffffff;
+     color: #484848;
+     font-size: 27px;
+     padding: 10px 35px;
+     border: none;
+     cursor: pointer;
+     border-radius: 50px;
+     text-align: center;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+ .courses-card-desc{
+     font-size: 14px;
+     font-weight: 400;
+     color: #7a7a7a;
+     text-align: center;
+}
+ .checked {
+     color: orange;
+}
+ .review{
+     padding-top: 20px;
+}
+ .review-button button{
+     padding: 9px 10px;
+     font-size: 14px;
+     font-weight: 500;
+     text-transform: uppercase;
+     color: #747474;
+     background-color: inherit;
+     border: none;
+     border-radius: 45px;
+     cursor: pointer;
+     border: 2px solid #d9d9d9;
+}
+ .courses-read-more-button{
+     padding: 30px 0;
+}
+ .courses-read-more-button button{
+     padding: 12px 27px;
+     font-size: 14px;
+     font-weight: 500;
+     text-transform: uppercase;
+     color: #171717;
+     background-color: inherit;
+     border: none;
+     border-radius: 45px;
+     cursor: pointer;
+     border: 2px solid #5b9cdf;
+}
+ .courses-read-more-button button:hover{
+     background-color: #5b9cdf;
+     border: 2px solid #5b9cdf;
+     color: #ffffff;
+     transition: .2s;
+}
+/*our courses End*/
+/* ===================================== 
+07. Upcoming Courses CSS 
+===================================== */
+/*upcoming courses start*/
+ .upcoming-courses{
+     background: #f2f2f2;
+     padding-bottom: 80px;
+}
+ .upcoming-courses-title{
+     margin: 0 auto;
+     text-transform: capitalize;
+     font-weight: 700;
+     font-size: 40px;
+     color: #000000;
+     padding: 100px 0 60px 0;
+}
+ .upcoming-courses-title p{
+     margin-bottom: 0;
+}
+ .upcoming-courses-title-hr{
+     width: 30%;
+     margin-top: 0;
+     border: 2px solid #5b9cdf;
+     margin-bottom: 0;
+}
+ .upcoming-courses-main-title{
+     padding-bottom: 60px;
+}
+ .upcoming-courses-main-title p{
+     margin-bottom: 0;
+     font-size: 30px;
+     font-weight: 400;
+     color: #323232;
+}
+ .upcoming-courses-hr{
+     width: 14%;
+     margin: 0;
+     border: 2px solid #5b9cdf;
+}
+ .animation-title p{
+     margin-bottom: 0;
+     color: #515151;
+     font-size: 25px;
+     font-weight: 600;
+}
+ .animation-desc p{
+     margin-bottom: 0;
+     font-weight: 400;
+     font-size: 14px;
+     color: #474747;
+     padding-bottom: 35px;
+}
+ .animation-package p{
+     margin-bottom: 0;
+}
+ .animation-package .animation-date{
+     font-size: 16px;
+     font-weight: 700;
+     color: #5b9cdf;
+     padding-right: 30px;
+}
+ .animation-package .price{
+     font-size: 20px;
+     font-weight: 700;
+     color: #5b9cdf;
+}
+ .animation-package .duration{
+     font-size: 16px;
+     font-weight: 400;
+     color: #5b9cdf;
+}
+ .animation-package-button{
+     padding-top: 84px;
+     padding-bottom: 50px;
+}
+ .animation-package-button button{
+     padding: 12px 27px;
+     font-size: 14px;
+     font-weight: 500;
+     text-transform: uppercase;
+     color: #ffffff;
+     background-color: #5b9cdf;
+     border: none;
+     border-radius: 45px;
+     cursor: pointer;
+     border: 2px solid #5b9cdf;
+}
+ .animation-package-button button:hover{
+     background-color: inherit;
+     border: 2px solid #5b9cdf;
+     color: #000000;
+     transition: .2s;
+}
+ .carousel {
+     width: 100%;
+     align-self: center;
+     vertical-align:center;
+     margin: 0 auto;
+}
+ .user_img {
+     width: 120px;
+     display: block;
+     margin: 0 auto;
+     margin-top: 20px;
+}
+ .testimonial-title {
+     text-align: center;
+     margin-top: 10px;
+}
+ .description {
+     text-align: center;
+     width: 80%;
+     margin: 0 auto;
+     align-self: center;
+     align-items:center;
+}
+ .carousel-indicators li{
+     background: #c4daf3;
+}
+ .carousel-indicators .active{
+     background: #5b9cdf;
+}
+ .carousel-control-next, .carousel-control-prev{
+     width: 2%;
+}
+/*Our Pricing End*/
+/* ===================================== 
+08. Our Trainer CSS 
+===================================== */
+/*our trainer start*/
+ .our-trainer-title{
+     margin: 0 auto;
+     text-transform: capitalize;
+     font-weight: 700;
+     font-size: 40px;
+     color: #000000;
+     padding: 100px 0 60px 0;
+}
+ .our-trainer-title p{
+     margin-bottom: 0;
+}
+ .our-trainer-title-hr{
+     width: 30%;
+     margin-top: 0;
+     border: 2px solid #5b9cdf;
+     margin-bottom: 0;
+}
+ .profile_card .profile_inner{
+     perspective:1000px;
+     position: relative;
+}
+ .profile_card .profile_img{
+     transform:rotateY(0deg);
+     backface-visibility: hidden;
+     transform-style: preserve-3d;
+     transition: all 0.50s ease 0s;
+}
+ .profile_card:hover .profile_img{
+     visibility:hidden;
+     transform:rotateY(180deg);
+}
+ .profile_card .profile_img img{
+     width:100%;
+     height:auto;
+}
+ .profile_card .over_layer{
+     position: absolute;
+     top:0;
+     left:0;
+     width:100%;
+     height:100%;
+     padding:30px 20px;
+     background:#6f97bf;
+     backface-visibility: hidden;
+     transform-style: preserve-3d;
+     transform:rotateY(-180deg);
+     transition: all 0.50s ease 0s;
+}
+ .profile_card:hover .over_layer{
+     visibility: visible;
+     transform:rotateY(0deg);
+}
+ .profile_card .over_layer .social_links{
+     margin:0 0 20px 0;
+     padding:0;
+}
+ .profile_card .over_layer .social_links li{
+     list-style: none;
+     display: inline-block;
+}
+ .profile_card .over_layer .social_links li a{
+     color:#333;
+     width:30px;
+     height:30px;
+     background:#fff;
+     line-height:30px;
+     text-align:center;
+}
+ .profile_card .over_layer .social_links li a:hover{
+     text-decoration: none;
+}
+ .profile_card .over_layer p{
+     color:#fff;
+     font-size:14px;
+}
+ .profile_card .profile_contact{
+     color:#fff;
+     text-align: center;
+     padding:15px 10px;
+     background:#5b9cdf;
+     margin-bottom:15px;
+}
+ .profile_card .profile_contact h3{
+     margin: 0;
+     font-size:20px;
+     text-transform: capitalize;
+}
+ .profile_card .profile_contact h3 > span{
+     font-size:15px;
+     margin: 10px 0;
+     display: block;
+     text-transform: uppercase;
+}
+/*Our Trainer End*/
+/* ===================================== 
+09. Student opinion CSS 
+===================================== */
+ .student-opinion{
+     background: #f2f2f2;
+}
+ .student-opinion-title{
+     margin: 0 auto;
+     text-transform: capitalize;
+     font-weight: 700;
+     font-size: 40px;
+     color: #000000;
+     padding: 100px 0 60px 0;
+}
+ .student-opinion-title p{
+     margin-bottom: 0;
+}
+ .student-opinion-title-hr{
+     width: 30%;
+     margin-top: 0;
+     border: 2px solid #5b9cdf;
+     margin-bottom: 0;
+}
+ .testimonials{
+     padding-bottom: 2.2em;
+     text-align: center;
+     color: #666;
+}
+ .testimonials h1{
+     color: #222;
+     font-size: 1.3em;
+}
+ .testimonials .test-body{
+     padding: 1em;
+}
+ .testimonials .item{
+     text-align: center;
+     padding: 1em 0;
+}
+ .testimonials img{
+     width: 10rem;
+     height: 10rem;
+     border-radius: 50%;
+     border: 2px solid #dbdbdb;
+}
+ .testimonials .name{
+     color: #404040;
+     font-weight: 700;
+     font-size: 22px;
+     padding-top: 1rem;
+}
+ .testimonials .desig{
+     font-size: 0.7em;
+     padding: 0.5em 0;
+     color: #777;
+}
+ .testimonials .share{
+     margin: 0 auto;
+     width: 15rem;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+}
+ .testimonials i{
+     color: #bfbfbf;
+     padding: 0.5em 0;
+     -webkit-transition: all 0.5s;
+     -o-transition: all 0.5s;
+     transition: all 0.5s;
+     cursor: pointer;
+}
+ .testimonials i:hover{
+     color: #5b9cdf;
+}
+ .testimonials p{
+     max-width: 27em;
+     margin: 0 auto;
+     font-size: 0.8em;
+}
+ @media (min-width: 38.4rem){
+     .testimonials{
+         font-size: 1.2em;
+    }
+     .testimonials .test-body{
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         justify-content: center;
+    }
+     .testimonials p{
+         padding: 1em;
+    }
+}
+/*Student opinion CSS End*/
+/* ===================================== 
+10. Contact Us CSS 
+===================================== */
+/*contact us start*/
+ .contact-us{
+     padding-top: 100px;
+}
+ .contact-us-image{
+     padding-top: 33px;
+     padding-right: 27px;
+}
+ .contact-us-image img{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ .contact-us-title{
+}
+ .contact-us-title p{
+     margin-bottom: 0;
+     font-size: 40px;
+     font-weight: 600;
+     color: #323232;
+}
+ .contact-us-desc{
+     padding-top: 16px;
+}
+ .contact-us-desc p{
+     font-size: 16px;
+     font-weight: 400;
+     color: #6d6d6d;
+}
+ .contact-us input{
+     color: #3fc061;
+     padding: 15px 0 15px 17px;
+     background: inherit;
+     border: 2px solid #5b9cdf;
+}
+ .contact-us textarea{
+     color: #ffffff;
+     padding: 25px 0 15px 17px;
+     background: inherit;
+     border: 2px solid #5b9cdf;
+}
+ .contact-button{
+     text-align: center;
+     padding: 12px 0 44px 0;
+}
+ .contact-us button {
+     padding: 12px 39px;
+     font-size: 14px;
+     font-weight: 500;
+     text-transform: uppercase;
+     letter-spacing: 2.5px;
+     font-weight: 500;
+     color: #000000;
+     background-color: inherit;
+     border: none;
+     border-radius: 45px;
+     cursor: pointer;
+     border: 2px solid #5b9cdf;
+}
+ .contact-us button:hover{
+     background-color: #5b9cdf;
+     color: #fff;
+     transition: .2s;
+}
+ .contact-button{
+     padding-bottom: 100px;
+}
+/*Contact Us End*/
+/* ===================================== 
+11. Subscribe CSS 
+===================================== */
+/*subscribe*/
+ .subscribe{
+     background:#f2f2f2;
+     padding-bottom: 100px;
+}
+ .subscribe-title{
+     margin: 0 auto;
+     text-transform: capitalize;
+     font-weight: 700;
+     font-size: 40px;
+     color: #000000;
+     padding: 100px 0 20px 0;
+}
+ .subscribe-title p{
+     margin-bottom: 0;
+}
+ .subscribe-title-hr{
+     width: 30%;
+     margin-top: 0;
+     border: 2px solid #5b9cdf;
+     margin-bottom: 0;
+}
+ .subscribe-desc p{
+     text-align: justify;
+     margin-bottom: 0;
+     padding-bottom: 50px;
+}
+ .buttonInside{
+     position:relative;
+}
+ .buttonInside input{
+     height: 25px;
+     width: 100%;
+     padding: 40px 0 40px 63px;
+     border-radius: 50px;
+     border: none;
+     outline: none;
+     background: inherit;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ .buttonInside button{
+     position: absolute;
+     right: 20px;
+     top: 18px;
+     padding: 12px 39px;
+     font-size: 14px;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-weight: 500;
+     color: #ffffff;
+     background-color: #5b9cdf;
+     border: none;
+     border-radius: 45px;
+     cursor: pointer;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ .buttonInside button:hover{
+     cursor:pointer;
+     border: 2px solid #5b9cdf;
+     background: inherit;
+     color: #525252;
+}
+/* ===================================== 
+12. Our Details CSS 
+===================================== */
+/*our details start*/
+ .our-details{
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+ .our-details-count{
+     font-size: 40px;
+     font-weight: 700;
+     color: #3e3c3c;
+}
+ .our-details-count p{
+     margin-bottom: 0;
+}
+ .our-details-count-hr{
+     width: 25%;
+     margin: 0;
+     border: 2px solid #5b9cdf;
+     margin-bottom: 0;
+}
+ .our-details-title p{
+     margin-bottom: 0;
+     padding-top: 20px;
+}
+ .our-details-package-image{
+     padding-top: 17px;
+}
+/*Our Details End*/
+/* ===================================== 
+13. Footer CSS 
+===================================== */
+/*footer top*/
+ .footer{
+     background: #2f3135;
+}
+ .footer-hr{
+     width: 25%;
+     margin: 0;
+     border: 2px solid #5b9cdf;
+     margin-bottom: 0;
+}
+ .footer-contact-title{
+     padding-top: 100px;
+     padding-bottom: 30px;
+     color: #ffffff;
+     font-size: 25px;
+     font-weight: 500;
+}
+ .footer-contact-title p{
+     margin-bottom: 0;
+}
+ .footer-contact-street{
+     color: #ffffff;
+     font-size: 15px;
+     font-weight: 400;
+}
+ .footer-contact-street i{
+     padding-right: 10px;
+     font-size: 17px;
+}
+ .footer-contact-phone{
+     color: #ffffff;
+     font-size: 15px;
+     font-weight: 500;
+}
+ .footer-contact-phone i{
+     padding-right: 10px;
+     font-size: 17px;
+}
+ .footer-contact-mail{
+     color: #ffffff;
+     font-size: 15px;
+     font-weight: 500;
+}
+ .footer-contact-mail i{
+     padding-right: 10px;
+     font-size: 17px;
+}
+ .footer-contact-social{
+     padding-top: 10px;
+}
+ .footer-contact-social ul{
+     padding-left: 0px;
+     display: flex;
+     position: relative;
+     top: 48%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+ .footer-contact-social ul li{
+     list-style: none;
+}
+ .footer-contact-social ul li a{
+     width: 40px;
+     height: 40px;
+     text-align: center;
+     line-height: 44px;
+     font-size: 16px;
+     margin: 0 10px;
+     display: block;
+     border-radius: 50%;
+     position: relative;
+     overflow: hidden;
+     border: 2px solid #ffffff;
+     z-index: 1;
+     background: inherit;
+}
+ .footer-contact-social ul li a .fa{
+     position: relative;
+     color: #ffffff;
+     transition: 1s;
+     top: -11%;
+}
+ .footer-contact-social ul li a:hover .fa{
+     color: #fff;
+     transform: rotateY(360deg);
+     z-index: 3;
+}
+ .footer-contact-social ul li a:before{
+     content: '';
+     position: absolute;
+     top: 100%;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #f00;
+     transition: .5s;
+     z-index: 2;
+}
+ .footer-contact-social ul li a:hover:before{
+     top: 0;
+}
+ .footer-contact-social ul li:nth-child(1) a:before{
+     background: #3b5999;
+}
+ .footer-contact-social ul li:nth-child(2) a:before{
+     background: #0077b5;
+}
+ .footer-contact-social ul li:nth-child(3) a:before{
+     background: #55acee;
+}
+ .footer-contact-social ul li:nth-child(4) a:before{
+     background: #dd4b39;
+}
+ .footer-quick-touch-title{
+     padding-top: 100px;
+     padding-bottom: 30px;
+     color: #ffffff;
+     font-size: 25px;
+     font-weight: 500;
+}
+ .footer-quick-touch-title p{
+     margin-bottom: 0;
+}
+ .footer-quick-touch-input input{
+     color: #ffffff;
+     padding: 17px 0 18px 42px;
+     background: #909399;
+     border: 3px solid #909399;
+}
+ .footer-quick-touch-input textarea{
+     color: #ffffff;
+     padding: 15px 0 0 42px;
+     background: #909399;
+     border: 3px solid #909399;
+}
+ .footer-button{
+     text-align: center;
+     margin-bottom: 5px;
+}
+ .footer-button button {
+     padding: 7px 37px;
+     font-size: 14px;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-weight: 500;
+     color: #ffffff;
+     background-color: #5b9cdf;
+     border: none;
+     border-radius: 45px;
+     cursor: pointer;
+     border: 2px solid #5b9cdf;
+}
+ .footer-button button:hover{
+     background-color: inherit;
+     color: #fff;
+     transition: .2s;
+}
+ .footer-links ul{
+     padding-left: 15px;
+}
+ .footer-links li{
+     list-style: none;
+}
+ .footer-links a{
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 15px;
+     color: #ffffff;
+}
+.footer-links ul li a:hover {
+    color: #5b9cdf;
+}
+ .footer-links-title{
+     padding-top: 100px;
+     padding-bottom: 30px;
+     color: #ffffff;
+     font-size: 25px;
+     font-weight: 500;
+}
+ .footer-links-title p{
+     margin-bottom: 0;
+}
+ .footer-gallery-title{
+     padding-top: 100px;
+     padding-bottom: 30px;
+     color: #ffffff;
+     font-size: 25px;
+     font-weight: 500;
+}
+ .footer-gallery-title p{
+     margin-bottom: 0;
+}
+ #overlay{
+     cursor: pointer;
+     position:absolute;
+     top:0;
+     left:0;
+     height:100%;
+     width:100%;
+     background:#000;
+     opacity:.7;
+     z-index:2000;
+     display:none;
+}
+ .photo{
+     position:relative;
+     float:left;
+     height:100px;
+     width:100px;
+     background:#fff;
+     border:1px solid #999;
+}
+ .photo-image{
+     cursor: pointer;
+     position: relative;
+     width: 100%;
+     height: 100%;
+     transition: width 1s, top 1s, left 1s, opacity 1s, z-index .01s;
+}
+ .footer-single-photo-one{
+     padding-left: 50px;
+}
+ .footer-single-photo-two{
+     padding-left: 85px;
+}
+ .footer-photo-gallery {
+     padding-bottom: 50px;
+}
+ .col-padding {
+     padding-bottom: 5px;
+}
+/*footer bottom*/
+ .footer-logo{
+     padding: 30px 0 20px 0;
+}
+ .footer-bottom{
+     background: #252628;
+}
+ .footer-copyright{
+     padding: 30px 0 20px 0;
+     margin-bottom: 0;
+     color: #ffffff;
+     font-size: 14px;
+     font-weight: 300;
+}
+ .footer-credit span{
+     color: #ffffff;
+     font-size: 14px;
+}
+ .footer-credit{
+     padding: 30px 0 20px 0;
+}
+ .footer-credit a{
+     color: #5b9cdf;
+     font-weight: 700;
+}
+/*Footer CSS End*/
+/* ===================================== 
+14. Scroll CSS 
+===================================== */
+/*scroll css start*/
+ #scroll{
+     position: fixed;
+     right: 20px;
+     bottom: 34px;
+     height: 50px;
+     width: 50px;
+     background-color: #5b9cdf;
+     border: 2px solid #5b9cdf;
+     border-radius: 60px;
+     -webkit-border-radius: 60px;
+}
+ #scroll span{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-left: -8px;
+     margin-top: -12px;
+     border: 8px solid transparent;
+     border-bottom-color: #ffffff;
+}
+/*Scroll CSS End*/
+/* ========================================================================== 
+Helper classes 
+========================================================================== */
+/* * Hide visually and from screen readers */
+ .hidden {
+     display: none !important;
+}
+/* * Hide only visually, but have it available for screen readers: * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility * * 1. For long content, line feeds are not interpreted as spaces and small width * causes content to wrap 1 word per line: * https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
+ .visuallyhidden {
+     border: 0;
+     clip: rect(0 0 0 0);
+     -webkit-clip-path: inset(50%);
+     clip-path: inset(50%);
+     height: 1px;
+     margin: -1px;
+     overflow: hidden;
+     padding: 0;
+     position: absolute;
+     width: 1px;
+     white-space: nowrap;
+    /* 1 */
+}
+/* * Extends the .visuallyhidden class to allow the element * to be focusable when navigated to via the keyboard: * https://www.drupal.org/node/897638 */
+ .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+     clip: auto;
+     -webkit-clip-path: none;
+     clip-path: none;
+     height: auto;
+     margin: 0;
+     overflow: visible;
+     position: static;
+     width: auto;
+     white-space: inherit;
+}
+/* * Hide visually and from screen readers, but maintain layout */
+ .invisible {
+     visibility: hidden;
+}
+/* * Clearfix: contain floats * * For modern browsers * 1. The space content is one way to avoid an Opera bug when the * `contenteditable` attribute is included anywhere else in the document. * Otherwise it causes space to appear at the top and bottom of elements * that receive the `clearfix` class. * 2. The use of `table` rather than `block` is only necessary if using * `:before` to contain the top-margins of child elements. */
+ .clearfix:before, .clearfix:after {
+     content: " ";
+    /* 1 */
+     display: table;
+    /* 2 */
+}
+ .clearfix:after {
+     clear: both;
+}
+/* ==========================================================================
+ EXAMPLE Media Queries for Responsive Design. These examples override the primary ('mobile first') styles. Modify as content requires. ========================================================================== */
+ @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+ @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+/* ========================================================================== Print styles. Inlined to avoid the additional HTTP request: http://www.phpied.com/delay-loading-your-print-css/ ========================================================================== */
+ @media print {
+     *, *:before, *:after {
+         background: transparent !important;
+         color: #000 !important;
+        /* Black prints faster: http://www.sanbeiji.com/archives/953 */
+         box-shadow: none !important;
+         text-shadow: none !important;
+    }
+     a, a:visited {
+         text-decoration: underline;
+    }
+     a[href]:after {
+         content: " (" attr(href) ")";
+    }
+     abbr[title]:after {
+         content: " (" attr(title) ")";
+    }
+    /* * Don't show links that are fragment identifiers, * or use the `javascript:` pseudo protocol */
+     a[href^="#"]:after, a[href^="javascript:"]:after {
+         content: "";
+    }
+     pre {
+         white-space: pre-wrap !important;
+    }
+     pre, blockquote {
+         border: 1px solid #999;
+         page-break-inside: avoid;
+    }
+    /* * Printing Tables: * http://css-discuss.incutio.com/wiki/Printing_Tables */
+     thead {
+         display: table-header-group;
+    }
+     tr, img {
+         page-break-inside: avoid;
+    }
+     p, h2, h3 {
+         orphans: 3;
+         widows: 3;
+    }
+     h2, h3 {
+         page-break-after: avoid;
+    }
+}

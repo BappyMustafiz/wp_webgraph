@@ -144,10 +144,10 @@ add_action( 'edit_user_profile_update', 'my_save_extra_profile_fields' );
 */
 
 function rearrange_comment_field( $fields ) {
-$comment_field = $fields['comment'];
-unset( $fields['comment'] );
-$fields['comment'] = $comment_field;
-return $fields;
+	$comment_field = $fields['comment'];
+	unset( $fields['comment'] );
+	$fields['comment'] = $comment_field;
+	return $fields;
 }
  
 add_filter( 'comment_form_fields', 'rearrange_comment_field' );
@@ -254,3 +254,58 @@ function slider_meta_save( $post_id ) {
 
 }
 add_action( 'save_post', 'slider_meta_save' );
+
+
+/*
+* member custom post
+*/
+function registerd_member(){
+	register_post_type('register-members',
+		array(
+			'labels'=>array(
+				'name'               =>__('Registerd Members'), 
+				'singular_name'      =>__('Register Members'), 
+				'menu_name'          =>__('Registerd Members'), 
+				'name_admin_bar'     =>__('Add Member'), 
+				'add_new'            => __( 'Add Member'),
+				'add_new_item'       => __( 'Add New Member'),
+				'new_item'           => __( 'New Member' ),
+				'edit_item'          => __( 'Edit Member' ),
+				'view_item'          => __( 'View Member' ),
+				'all_items'          => __( 'All Members' ),
+				'search_items'       => __( 'Search Member' ),
+				'parent_item_colon'  => __( 'Parent Member' ),
+				'not_found'          => __( 'No Member Found' ),
+				'not_found_in_trash' => __( 'No member found in Trash.') 
+			),
+			'public'             => true,
+			'has_archive'        => true,
+			'rewrite'            => array( 'slug' => 'register-member' ),
+			'menu_position'      => 7,
+			'menu_icon'          => 'dashicons-admin-users',
+			'supports'           => array( 'title', 'editor','thumbnail')
+		)
+	);
+}
+add_action('init', 'registerd_member');
+
+/*
+* Custom meta box
+*/
+function member_custom_meta() {
+	add_meta_box( 'member_meta', __( 'Others Section', 'webgraph' ), 'member_meta_callback', 'register-members' );
+}
+add_action( 'add_meta_boxes', 'member_custom_meta' );
+
+// field creation
+function member_meta_callback( $post ) {
+	wp_nonce_field( basename( __FILE__ ), 'new-member' );
+	$member_stored_meta = get_post_meta( $post->ID );
+	echo "<pre>";print_r($member_stored_meta);die();
+	?>
+	<input type="text" name="meta-subtitle-slider" id="meta-text" value="<?php if ( isset ( $slider_stored_meta['meta-subtitle-slider'] ) ) echo $slider_stored_meta['meta-subtitle-slider'][0]; ?>" style="width:100%;font-size:16px; margin-bottom: 20px;" placeholder="Enter Slider Subtitle">
+
+	<input type="text" name="meta-url-slider" id="meta-text" value="<?php if ( isset ( $slider_stored_meta['meta-url-slider'] ) ) echo $slider_stored_meta['meta-url-slider'][0]; ?>" style="width:100%;font-size:16px;" placeholder="Enter Button URL">
+	
+	<?php
+}

@@ -18,8 +18,23 @@
 <?php
 	if (!isset($_POST['submit'])) {
 ?>
-<div style="margin: 100px 0;">
+<div style="margin: 50px 0;">
 	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="registration_area_content">
+					<p class="registration_area_title">Kapasia Association, Dhaka</p>
+					<p class="registration_area_subtitle">Established: 2018</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 offset-md-2 col-sm-12">
+				<div class="form_title">
+					<p>Member registration form</p>
+				</div>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-md-8 offset-md-2 col-sm-12">
 				
@@ -118,7 +133,7 @@
 				  <div class="form-group row">
 				  	<label for="office_address" class="col-sm-3 col-form-label"></label>
 				    <div class="col-sm-9">
-				      <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+				      <button type="submit" name="submit" class="btn btn-primary register_button">Submit</button>
 				    </div>
 				  </div>
 				</form>
@@ -164,17 +179,38 @@ else {
     add_post_meta($pid, 'ka_mobile_number', $meta_box6, true);
     add_post_meta($pid, 'ka_email', $meta_box7, true);
     add_post_meta($pid, 'ka_facebook_link', $meta_box8, true);
-    add_post_meta($pid, 'ka_date_of_birth', $meta_box9, true);
-    add_post_meta($pid, 'ka_blood_group', $meta_box10, true);
-    add_post_meta($pid, 'ka_religion', $meta_box11, true);
-    add_post_meta($pid, 'ka_education', $meta_box12, true);
-    add_post_meta($pid, 'ka_profession', $meta_box13, true);
-    add_post_meta($pid, 'ka_office_address', $meta_box14, true);
+    add_post_meta($pid, 'ka_nid_number', $meta_box9, true);
+    add_post_meta($pid, 'ka_date_of_birth', $meta_box10, true);
+    add_post_meta($pid, 'ka_blood_group', $meta_box11, true);
+    add_post_meta($pid, 'ka_religion', $meta_box12, true);
+    add_post_meta($pid, 'ka_education', $meta_box13, true);
+    add_post_meta($pid, 'ka_profession', $meta_box14, true);
+    add_post_meta($pid, 'ka_office_address', $meta_box15, true);
 
     if($new_post){
-	    echo 'Information submitted Successfully.';
+	    echo '<div style="margin: 50px 0;">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="success_message">
+								<p>Information submitted Successfully.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>';
 	}else{
-	    echo 'Unable to submit information.';
+	    echo '<div style="margin: 50px 0;">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="error_message">
+								<p>Please put valid information.....</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>';
 	}
     // print '<pre>';
     // var_dump(array($new_post, $pid));

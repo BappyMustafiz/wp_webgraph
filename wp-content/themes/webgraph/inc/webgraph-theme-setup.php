@@ -270,7 +270,7 @@ function registerd_member(){
 				'add_new'            => __( 'Add Member'),
 				'add_new_item'       => __( 'Add New Member'),
 				'new_item'           => __( 'New Member' ),
-				'edit_item'          => __( 'Edit Member' ),
+				'edit_item'          => __( 'View Member' ),
 				'view_item'          => __( 'View Member' ),
 				'all_items'          => __( 'All Members' ),
 				'search_items'       => __( 'Search Member' ),
@@ -280,10 +280,11 @@ function registerd_member(){
 			),
 			'public'             => true,
 			'has_archive'        => true,
-			'rewrite'            => array( 'slug' => 'register-member' ),
+			'rewrite'            => false,
+			'has_archive' => false,
 			'menu_position'      => 7,
 			'menu_icon'          => 'dashicons-admin-users',
-			'supports'           => array( 'title', 'editor','thumbnail')
+			'supports'           => array( 'title'),
 		)
 	);
 }
@@ -293,7 +294,7 @@ add_action('init', 'registerd_member');
 * Custom meta box
 */
 function member_custom_meta() {
-	add_meta_box( 'member_meta', __( 'Others Section', 'webgraph' ), 'member_meta_callback', 'register-members' );
+	add_meta_box( 'member_meta', __( 'Member details', 'webgraph' ), 'member_meta_callback', 'register-members' );
 }
 add_action( 'add_meta_boxes', 'member_custom_meta' );
 
@@ -301,11 +302,28 @@ add_action( 'add_meta_boxes', 'member_custom_meta' );
 function member_meta_callback( $post ) {
 	wp_nonce_field( basename( __FILE__ ), 'new-member' );
 	$member_stored_meta = get_post_meta( $post->ID );
-	echo "<pre>";print_r($member_stored_meta);die();
+	// echo "<pre>";print_r($member_stored_meta);die();
 	?>
-	<input type="text" name="meta-subtitle-slider" id="meta-text" value="<?php if ( isset ( $slider_stored_meta['meta-subtitle-slider'] ) ) echo $slider_stored_meta['meta-subtitle-slider'][0]; ?>" style="width:100%;font-size:16px; margin-bottom: 20px;" placeholder="Enter Slider Subtitle">
-
-	<input type="text" name="meta-url-slider" id="meta-text" value="<?php if ( isset ( $slider_stored_meta['meta-url-slider'] ) ) echo $slider_stored_meta['meta-url-slider'][0]; ?>" style="width:100%;font-size:16px;" placeholder="Enter Button URL">
+	<h3>Applicant name : <?php if ( isset ( $member_stored_meta['ka_applicant_name'] ) ) echo $member_stored_meta['ka_applicant_name'][0]; ?></h3>
+	<h3>Father's name : <?php if ( isset ( $member_stored_meta['ka_father_name'] ) ) echo $member_stored_meta['ka_father_name'][0]; ?></h3>
+	<h3>Mother's name : <?php if ( isset ( $member_stored_meta['ka_mother_name'] ) ) echo $member_stored_meta['ka_mother_name'][0]; ?></h3>
+	<h3>Permanent address : <?php if ( isset ( $member_stored_meta['ka_permanent_address'] ) ) echo $member_stored_meta['ka_permanent_address'][0]; ?></h3>
+	<h3>Current address : <?php if ( isset ( $member_stored_meta['ka_current_address'] ) ) echo $member_stored_meta['ka_current_address'][0]; ?></h3>
+	<h3>Mobile number : <?php if ( isset ( $member_stored_meta['ka_mobile_number'] ) ) echo $member_stored_meta['ka_mobile_number'][0]; ?></h3>
+	<h3>Email address : <?php if ( isset ( $member_stored_meta['ka_email'] ) ) echo $member_stored_meta['ka_email'][0]; ?></h3>
+	<h3>Facebook link : <?php if ( isset ( $member_stored_meta['ka_facebook_link'] ) ) echo $member_stored_meta['ka_facebook_link'][0]; ?></h3>
+	<h3>NID/BC/PN : <?php if ( isset ( $member_stored_meta['ka_nid_number'] ) ) echo $member_stored_meta['ka_nid_number'][0]; ?></h3>
+	<h3>Date of birth : <?php if ( isset ( $member_stored_meta['ka_date_of_birth'] ) ) echo $member_stored_meta['ka_date_of_birth'][0]; ?></h3>
+	<h3>Blood group : <?php if ( isset ( $member_stored_meta['ka_blood_group'] ) ) echo $member_stored_meta['ka_blood_group'][0]; ?></h3>
+	<h3>Religion : <?php if ( isset ( $member_stored_meta['ka_religion'] ) ) echo $member_stored_meta['ka_religion'][0]; ?></h3>
+	<h3>Education : <?php if ( isset ( $member_stored_meta['ka_education'] ) ) echo $member_stored_meta['ka_education'][0]; ?></h3>
+	<h3>Profession : <?php if ( isset ( $member_stored_meta['ka_profession'] ) ) echo $member_stored_meta['ka_profession'][0]; ?></h3>
+	<h3>Office address : <?php if ( isset ( $member_stored_meta['ka_office_address'] ) ) echo $member_stored_meta['ka_office_address'][0]; ?></h3>
 	
 	<?php
 }
+
+function wpse_76815_remove_publish_box() {
+    remove_meta_box( 'submitdiv', 'register-members', 'side' );
+}
+add_action( 'admin_menu', 'wpse_76815_remove_publish_box' );
